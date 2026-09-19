@@ -1,7 +1,7 @@
 const Card = () => {
   return (
     <div>
-      <img></img>
+      <img src="./react.png" className="w-18"></img>
     </div>
   );
 };
