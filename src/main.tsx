@@ -14,7 +14,7 @@ createRoot(document.getElementById("root")!).render(
       <main className="flex-1 max-w-[1200px] mx-auto w-full">
         <Filter />
         <div className="bg-white rounded-md py-2 mt-4">
-          <p className="Ttext-[#00A2F7] font-bold text-center">
+          <p className="text-[#00A2F7] font-bold text-center">
             Os cursos mais buscados
           </p>
           <div className="grid grid-cols-4 gap-2 mt-3">
@@ -28,8 +28,8 @@ createRoot(document.getElementById("root")!).render(
           </div>
         </div>
         <Info></Info>
+        <Footer />
       </main>
-      <Footer />
     </div>
   </StrictMode>,
 );
